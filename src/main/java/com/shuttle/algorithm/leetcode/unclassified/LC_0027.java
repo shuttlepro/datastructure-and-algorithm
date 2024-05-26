@@ -2,9 +2,7 @@ package com.shuttle.algorithm.leetcode.unclassified;
 
 /**
  * @author: Shuttle
- * @description: 给你一个数组 nums 和一个值 val，你需要原地移除所有数值等于 val 的元素。
- * 输入：nums = [3,2,2,3], val = 3
- * 输出：2, nums = [2,2,_,_]
+ * @description: <a href="https://leetcode.cn/problems/remove-element">移除元素</a>
  */
 public class LC_0027 {
 

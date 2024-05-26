@@ -2,8 +2,7 @@ package com.shuttle.algorithm.leetcode.unclassified;
 
 /**
  * @author: Shuttle
- * @description: 给定一个 n × n 的二维矩阵 matrix 表示一个图像。请你将图像顺时针旋转 90 度。
- * 原题出处：<a href="https://leetcode.cn/problems/rotate-image">旋转图像</a>
+ * @description: <a href="https://leetcode.cn/problems/rotate-image">旋转图像</a>
  */
 public class LC_0048 {
 

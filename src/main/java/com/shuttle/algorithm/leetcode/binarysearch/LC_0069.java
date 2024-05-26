@@ -2,15 +2,7 @@ package com.shuttle.algorithm.leetcode.binarysearch;
 
 /**
  * @author: Shuttle
- * @description: 给你一个非负整数 x，计算并返回 x 的算术平方根。
- * 由于返回类型是整数，结果只保留整数部分，小数部分将被舍去。
- * 示例 1：
- * 输入：x = 4
- * 输出：2
- * 示例 2：
- * 输入：x = 8
- * 输出：2
- * 解释：8 的算术平方根是 2.82842..., 由于返回类型是整数，小数部分将被舍去。
+ * @description: <a href="https://leetcode.cn/problems/sqrtx">x 的平方根</a>
  */
 public class LC_0069 {
 

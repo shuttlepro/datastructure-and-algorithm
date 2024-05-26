@@ -2,15 +2,7 @@ package com.shuttle.algorithm.leetcode.unclassified;
 
 /**
  * @author: Shuttle
- * @description: 给你一个未排序的整数数组 nums，请你找出其中没有出现的最小的正整数。
- * 示例 1：
- * 输入：nums = [1,2,0]
- * 输出：3
- * 解释：范围 [1,2] 中的数字都在数组中。
- * 示例 2：
- * 输入：nums = [3,4,-1,1]
- * 输出：2
- * 解释：1 在数组中，但 2 没有。
+ * @description: <a href="https://leetcode.cn/problems/first-missing-positive">缺失的第一个正数</a>
  */
 public class LC_0041 {
 
