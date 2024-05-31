@@ -41,6 +41,7 @@ public class LC_0136 {
 
     /**
      * 解法二：流式编程
+     * 思路：对 nums 元素包装处理进行分组，并过滤出 count == 1 的 groupKey
      *
      * @param nums 整数数组 nums
      * @return nums 中只出现一次的整数
