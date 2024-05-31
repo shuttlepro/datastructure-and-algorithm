@@ -41,7 +41,6 @@ public class LC_0136 {
 
     /**
      * 解法二：流式编程
-     * 思路：遍历 nums 数组时相邻元素进行异或运算，相同的值结果为 1，最后剩下 SingleNum
      *
      * @param nums 整数数组 nums
      * @return nums 中只出现一次的整数
