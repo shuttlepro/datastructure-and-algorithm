@@ -8,6 +8,8 @@ public class LC_0509 {
 
     /**
      * 解法一：滚动数组
+     * 时间复杂度：O(n)，等同第 n 个
+     * 空间复杂度：O(1)
      *
      * @param n 第 n 个
      * @return 第 n 个斐波那契数
@@ -31,6 +33,8 @@ public class LC_0509 {
 
     /**
      * 解法二：动态规划
+     * 时间复杂度：O(n)，等同第 n 个
+     * 空间复杂度：O(n)，dp 数组
      *
      * @param n 第 n 个
      * @return 第 n 个斐波那契数

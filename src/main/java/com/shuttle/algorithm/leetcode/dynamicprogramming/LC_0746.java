@@ -8,6 +8,8 @@ public class LC_0746 {
 
     /**
      * 解法一：滚动数组
+     * 时间复杂度：O(n)，n 表示 cost 数组的长度
+     * 空间复杂度：O(1)
      *
      * @param cost 整数数组
      * @return 达到楼梯顶部的最低花费
@@ -31,6 +33,8 @@ public class LC_0746 {
 
     /**
      * 解法二：动态规划
+     * 时间复杂度：O(n)，n 表示 cost 数组的长度
+     * 空间复杂度：O(n)，dp 数组
      *
      * @param cost 整数数组
      * @return 达到楼梯顶部的最低花费

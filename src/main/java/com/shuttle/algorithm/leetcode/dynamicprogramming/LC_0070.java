@@ -8,6 +8,8 @@ public class LC_0070 {
 
     /**
      * 解法一：滚动数组
+     * 时间复杂度：O(n)，n 是楼梯阶数
+     * 空间复杂度：O(1)
      *
      * @param n n 阶
      * @return 爬 n 阶楼梯的方法数
@@ -32,6 +34,8 @@ public class LC_0070 {
 
     /**
      * 解法二：动态规划
+     * 时间复杂度：O(n)，n 是楼梯阶数
+     * 空间复杂度：O(n)，dp 数组
      *
      * @param n n 阶
      * @return 爬 n 阶楼梯的方法数
