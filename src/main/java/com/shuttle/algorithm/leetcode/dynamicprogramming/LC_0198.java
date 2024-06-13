@@ -2,7 +2,7 @@ package com.shuttle.algorithm.leetcode.dynamicprogramming;
 
 /**
  * @author: Shuttle
- * @description: <a href="https://leetcode.cn/problems/triangle/description">三角形最小路径和</a>
+ * @description: <a href="https://leetcode.cn/problems/house-robber/description">打家劫舍</a>
  */
 public class LC_0198 {
 
