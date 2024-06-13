@@ -25,7 +25,7 @@ public class LC_0213 {
         if (numsLen == 2) {
             return Math.max(nums[0], nums[1]);
         }
-        // 分成[0, i - 1] 和 [1, i] 两种情况，比较大小
+        // 分成 [0, i - 1] 和 [1, i] 两种情况，比较金额大小
         return Math.max(getMaxSolution1(nums, 0, numsLen - 1), getMaxSolution1(nums, 1, numsLen));
     }
 
