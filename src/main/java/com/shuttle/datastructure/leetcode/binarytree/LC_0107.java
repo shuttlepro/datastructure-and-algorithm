@@ -14,12 +14,12 @@ import java.util.Queue;
 public class LC_0107 {
 
     /**
-     * 思路：利用队列存放每级节点，每层遍历结束后，再添加到 res 中，与 {@link LC_0102} 类似
-     * 时间复杂度：O(n)，n 是树的节点个数
+     * 思路：利用队列存放每级结点，每层遍历结束后，再添加到 res 中，与 {@link LC_0102} 类似
+     * 时间复杂度：O(n)，n 是树的结点个数
      * 空间复杂度：O(n)
      *
-     * @param root 给定的二叉树根节点
-     * @return 其节点值的层序遍历
+     * @param root 给定的二叉树根结点
+     * @return 其结点值的层序遍历
      */
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
