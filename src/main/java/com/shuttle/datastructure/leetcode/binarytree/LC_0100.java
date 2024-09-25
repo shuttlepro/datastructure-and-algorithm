@@ -20,7 +20,7 @@ public class LC_0100 {
      * @param q 根结点 q
      * @return 两棵树是否相同
      */
-    public boolean isSameTree(TreeNode p, TreeNode q) {
+    public boolean isSameTreeSolution1(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
             return true;
         }
@@ -31,7 +31,7 @@ public class LC_0100 {
             return false;
         }
 
-        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+        return isSameTreeSolution1(p.left, q.left) && isSameTreeSolution1(p.right, q.right);
     }
 
     /**
@@ -43,7 +43,7 @@ public class LC_0100 {
      * @param q 根结点 q
      * @return 两棵树是否相同
      */
-    public boolean isSameTree1(TreeNode p, TreeNode q) {
+    public boolean isSameTreeSolution2(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
             return true;
         }
