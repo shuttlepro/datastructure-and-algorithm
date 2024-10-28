@@ -55,7 +55,7 @@ public class LC_0025 {
     }
 
     private ListNode reverseList(ListNode head) {
-        // 暂存当前结点和上一个处理结点
+        // 暂存当前节点和上一个处理节点
         ListNode pre = null;
         ListNode cur = head;
 
