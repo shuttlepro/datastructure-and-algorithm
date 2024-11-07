@@ -9,7 +9,7 @@ import com.shuttle.helper.ListNode;
 public class LC_0002 {
 
     /**
-     * 思路：遍历链表，同时进位，直到所有位都遍历完
+     * 思路：遍历链表相加，同时进位，直到所有位都遍历完
      * 时间复杂度：O(max(m, n))
      * 空间复杂度：O(max(m, n))
      *
