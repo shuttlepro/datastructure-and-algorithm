@@ -9,7 +9,7 @@ import com.shuttle.helper.ListNode;
 public class LC_0725 {
 
     /**
-     * 思路：遍历链表，计算链表的长度，然后根据长度和段数计算每段链表的初始长度和附加长度
+     * 思路：遍历链表，计算链表的长度，然后根据长度和段数计算每段链表的初始和附加长度
      * 时间复杂度：O(n)，n 是链表的长度
      * 空间复杂度：O(n)
      *
@@ -39,6 +39,7 @@ public class LC_0725 {
             for (int j = 1; j < partSize; j++) {
                 cur = cur.next;
             }
+
             ListNode next = cur.next;
             cur.next = null;
             cur = next;
