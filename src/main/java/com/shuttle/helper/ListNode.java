@@ -2,7 +2,7 @@ package com.shuttle.helper;
 
 /**
  * @author: Shuttle
- * @description: ListNode
+ * @description: 链表节点 ListNode
  */
 public class ListNode {
 

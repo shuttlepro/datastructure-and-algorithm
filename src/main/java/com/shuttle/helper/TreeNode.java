@@ -2,7 +2,7 @@ package com.shuttle.helper;
 
 /**
  * @author: Shuttle
- * @description: TreeNode
+ * @description: 二叉树节点 TreeNode
  */
 public class TreeNode {
 
