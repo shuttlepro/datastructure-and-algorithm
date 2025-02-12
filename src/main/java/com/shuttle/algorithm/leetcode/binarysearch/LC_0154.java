@@ -26,7 +26,7 @@ public class LC_0154 {
             if (nums[midIndex] > nums[rightIndex]) {
                 // [midIndex + 1, rightIndex]
                 leftIndex = midIndex + 1;
-            } else if (nums[midIndex] < nums[leftIndex]) {
+            } else if (nums[midIndex] < nums[rightIndex]) {
                 // [leftIndex, midIndex]
                 rightIndex = midIndex;
             } else {
